@@ -1,0 +1,6 @@
+
+.bottom-section {
+    height: 45vh;
+    width: 100vw;
+    overflow: scroll;
+}

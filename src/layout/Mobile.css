@@ -1,0 +1,25 @@
+
+@media (max-width: 500px) {
+    .top-section {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+    .code-section {
+        height: 330px;
+        margin-top: 10px;
+        background-color: #fff;
+        border: 0
+    }
+    .code-container {
+        width: 90%;
+        margin-left: -8%;
+    }
+    .code-lang {
+        margin-top: -20px;
+    }
+    .bottom-section {
+        height: 500px;
+        margin-top: 80px;
+    }
+}

@@ -1,0 +1,50 @@
+
+.code-section {
+    height: 100%;
+    width: 100%;
+    background-color: #d9d9d9;
+    border-bottom: 1px solid #9a9a9a;
+    border-right: 1px solid #9a9a9a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.code-container {
+    height: 98%;
+    width: 98%;
+    background-color: #9a9a9a;
+    border-radius: 5px;
+}
+.code-lang {
+    height: 50px;
+    width: 100%;
+    background-color: #333;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.code-lang img {
+    height: 28px;
+    width: 28px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.code-lang h4 {
+    margin-left: 20px;
+    color: #f3f3f3;
+    font-size: 1.3rem;
+}
+.editor-container {
+    text-align: left;
+    height: 100%;
+    width: 100%;
+}
+.edit {
+    display: none;
+}
+.close-tap {
+    height: 50px !important;
+}

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -34,5 +35,12 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 500px) {
+  .App {
+    overflow-y: scroll;
+    overflow-x: hidden;
   }
 }
